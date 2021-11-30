@@ -1,0 +1,21 @@
+.checkoutHero {
+    .inner-body {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .innerContent {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 60%;
+        justify-content: center;
+    }
+    .tvl-btn {
+        display: flex;
+        flex: 0 0 25%;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #eee;
+    }
+}
