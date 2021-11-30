@@ -1,0 +1,135 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.form-control {
+  margin-bottom: 10px;
+   border-radius: 3px;
+}
+
+.checkoutHero .inner-body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background: #FFF2F7;
+  border: 2px dashed #FF2A73;
+  padding: 30px;
+  margin: 20px 0;
+}
+.checkoutHero .innerContent {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 0 60%;
+  justify-content: left;
+}
+.checkoutHero .tvl-btn {
+  display: flex;
+  flex: 0 0 25%;
+  justify-content: center;
+  align-items: center;
+}
+.checkoutHero .tvl-btn .btn {
+  border: 1.5px solid #FF2A73;
+  color: #FF2A73;
+  background: #FFF2F7;
+}
+.slsupport b{
+  color: #FF2A73;
+}
+.slsupport {
+  color: #000;
+}
+.cartCheckout {
+  background: #F2F2F2;
+  padding-bottom: 30px;
+}
+.cartInfo {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 33px 43px rgba(24, 28, 109, 0.05);
+}
+
+.orderItems {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 33px 43px rgba(24, 28, 109, 0.05);
+}
+.orderItems ul {
+  padding-left: 0;
+}
+.orderItems ul li {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.orderItems ul li .itemImg img{
+  border-radius: 4px;
+}
+.orderItems ul li .itemImg{
+  display: flex;
+  flex: 0 0 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderItems ul li .contents{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 0 60%;
+  justify-content: left;
+  padding-left: 15px;
+}
+.orderItems ul li .contents p  {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.orderItems ul li .contents p div {
+  color: #17AA1C;
+  padding-left: 50px;
+}
+
+.orderItems .totalAmount li {
+
+}
+.totalAmount li b.amounts{
+  text-align: right;
+  color:  #17AA1C;
+  
+}
+.totalAmount li b{
+  width: 50%;
+}
+
+.payimg {
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 4px 0;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.billingAdds {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.billingAdds .fas{
+  text-align: right;
+}
